@@ -11,9 +11,10 @@
 
     end
 
-    it "Debe existir " do
+    it "Debe existir ... " do
 
      @ppt.respond_to?("humano_tira").should == true
+     @ppt.respond_to?("maquina_tira").should == true
      
 
     end

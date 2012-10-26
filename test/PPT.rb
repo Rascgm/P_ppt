@@ -13,7 +13,11 @@ class PPT
   def humano_tira
     
       
-    end
+  end
+    
+  def maquina_tira
+    
+  end
           
     
     
