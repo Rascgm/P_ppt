@@ -7,13 +7,13 @@
 
     before :all do
 
-      @appt = PPT.new("Piedra");
+      @ppt = PPT.new("Piedra");
 
     end
 
     it "Debe existir " do
 
-     @ppt.respond_to("humano_tira").should == true
+     @ppt.respond_to?("humano_tira").should == true
      
 
     end
